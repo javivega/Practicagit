@@ -88,3 +88,6 @@ Este último comando me llevará tanto mi puntero HEAD, como mi puntero de rama 
 De nuevo recurro a git reflog para ver mi rastro de todos los commit por los que he pasado, y donde me sale tanto el identificador, como el texto que añadí al commit para poder localizarlos fácilmente. Después unicamente con:
 
 git reset --hard 2b014fd (identificador de mi commit donde puse el título)
+
+
+Nota: git clean -f -d para borrar untracked files que aparecen al hacer git status.
